@@ -1,6 +1,11 @@
-import React from 'react';
+import { Metadata } from 'next';
 import styles from './layout.module.css';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: '전체 제품 확인',
+  description: '멋진 제품을 확인해 보세요',
+};
 
 type Props = {
   children: React.ReactNode;
